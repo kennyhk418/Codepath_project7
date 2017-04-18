@@ -15,7 +15,8 @@ Time spent: **8** hours spent in total
     - Fixed in version: 
 	Not yet fixed
   - [x] GIF Walkthrough: 
-	<img src='http://i.imgur.com/R6peToLb.gif' title='Video Walkthrough 1' width='400px' alt='Video Walkthrough 1' />
+
+	<img src='http://i.imgur.com/R6peToL.gif' title='Video Walkthrough 1' width='400px' alt='Video Walkthrough 1' />
   - [x] Steps to recreate: 
 	When I tried to login with the admin username and a false password, the screen will display "ERROR: The password you entered for the username admin is incorrect." However, 
 	if I tried to login with some random username which does not exist, it will show "Error: Invalid username."
@@ -31,6 +32,7 @@ Time spent: **8** hours spent in total
     - Fixed in version:
 	4.1.6 
   - [x] GIF Walkthrough:
+
 	<img src='http://i.imgur.com/ibSOBwc.gif' title='Video Walkthrough 2' width='400px' alt='Video Walkthrough 2' />
   - [x] Steps to recreate: 
 	We would perform the XSS on the post, and put in `<a href="[caption code]=" onmouseover="alert('test')">link</a>`.
@@ -46,6 +48,7 @@ Time spent: **8** hours spent in total
     - Fixed in version: 
 	4.1.8
   - [x] GIF Walkthrough: 
+
 	<img src='http://i.imgur.com/M4fpc4o.gif' title='Video Walkthrough 3' width='400px' alt='Video Walkthrough 3' />
   - [x] Steps to recreate: 
 	We would like to exploit XSS vulnerbility in the comment section, so we can put in `<script>alert('test')</script>`. A pop up window will appear in the comment page.
