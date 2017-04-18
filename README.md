@@ -53,7 +53,7 @@ Time spent: **8** hours spent in total
   - [x] Steps to recreate: 
 	We would like to exploit XSS vulnerbility in the comment section, so we can put in `<script>alert('test')</script>`. A pop up window will appear in the comment page.
   - [x] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.0/src/wp-comments-post.php)
 
 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
